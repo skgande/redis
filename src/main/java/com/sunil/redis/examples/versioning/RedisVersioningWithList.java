@@ -32,3 +32,10 @@ public class RedisVersioningWithList {
         System.out.println("From redis --> Payment key : " + key + " and value : " + value);
     }
 }
+/*
+Output:
+From redis --> Payment key : plist and value : Payment{txnId='plist', statusCode='COMPLETED'}
+
+Process finished with exit code 0
+
+ */
